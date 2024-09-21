@@ -9,6 +9,13 @@ const nextConfig = {
               port: '',
               pathname: '/media/**',
             },
+            {
+              protocol: 'https',
+              hostname: 'img.freepik.com',
+              port: '',
+              pathname: '/premium-photo/**',
+              pathname: '/free-photo/**',
+            },
           ],
         },
 };
