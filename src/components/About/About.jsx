@@ -5,13 +5,13 @@ const About = () => {
     return (
         <div>
             <div className=' bg-lime-600 py-8 text-center text-3xl'>We exclusively supply retail outlets, unfortunately we do not supply the public.</div>
-            <div className=' grid grid-cols-2'>
-                <section className='  col-span-1'>
+            <div className=' grid md:grid-cols-2'>
+                <section className='  md:col-span-1'>
                 <Image className='' src='https://static.wixstatic.com/media/58dd64_23cbec3c870d4b5b80e6ae1a8b40e308~mv2.jpg/v1/fill/w_645,h_536,al_c,q_80,enc_auto/58dd64_23cbec3c870d4b5b80e6ae1a8b40e308~mv2.jpg' width={300} height={200} layout='responsive' 
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt=''></Image>
                 </section>
-                <section className=' place-content-center px-16
+                <section className=' place-content-center px-2 md:px-16
                 '>
                     <p className=' text-4xl text-lime-400 font-medium'>WHO WE ARE</p>
                     <p className=' text-3xl'>About us</p>
@@ -20,9 +20,9 @@ const About = () => {
                 </section>
             </div>
             {/* 2 */}
-            <div className=' grid grid-cols-2'>
+            <div className=' grid md:grid-cols-2'>
 
-                <section className=' place-content-center px-16
+                <section className=' place-content-center px-2 md:px-16
                 '>
                     <p className=' text-4xl text-lime-400 font-medium'>
                     WHAT WE MANUFACTURER</p>

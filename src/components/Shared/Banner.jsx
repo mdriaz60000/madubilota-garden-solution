@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import SimpleParallax from "simple-parallax-js";
+//import SimpleParallax from "simple-parallax-js";
 
 const Banner = () => {
     return (

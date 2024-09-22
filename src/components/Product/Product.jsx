@@ -68,7 +68,7 @@ const Product = () => {
   
       
       </Swiper>
-      <p className=' bg-lime-600 font-bold px-56 py-10 text-center'>
+      <p className='  font-bold md:px-56 md:py-10 text-center'>
             Garden Solutions has been a trusted supplier to Gardenshop for over 5 Years. They have always kept to their agreements be it verbal or written. They have held hands and walked alongside Gardenshop during our tough and trying times in the nursery retail sector. They have supported us where possible. They are extremely reliable and we value our relationship with them.
             <br />
             - Mainul Hasan. Garden Shop
