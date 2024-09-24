@@ -5,10 +5,10 @@ const Header = () => {
     return (  
        <Container>
          
-         <div className=' md:flex justify-between'>
-            <p className='sm:text-center text-4xl text-lime-500'>Madubilota</p>
+         <div className=' md:flex md:justify-between '>
+            <p className='text-center text-4xl text-lime-500'>Madubilota</p>
            
-            <p className=' sm:text-center  text-2xl'> 01601595684</p>
+            <p className=' text-center  text-2xl '> 01601595684</p>
          </div>
        </Container>
     );
